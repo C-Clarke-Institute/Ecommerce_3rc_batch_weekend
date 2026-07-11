@@ -137,3 +137,47 @@
     gap: 25px;
 
 }
+
+/*===========Brand marqueee========*/
+
+.brand-marquee{
+    padding: 70px 0;
+    overflow: hidden;
+    background: #fafafa;
+
+}
+
+.marquee{
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.marquee-content{
+    display:inline-flex;
+    animation: marquee 20s linear infinite;
+}
+
+.marquee-content span{
+    margin: 0 70px;
+    font-size: 34px;
+    font-weight: 700;
+    color: #999;
+    letter-spacing: 4px;
+    transition: .3s;
+
+}
+
+.marquee-content span:hover{
+    color: var(--primary);
+}
+
+@keyframes marquee{
+    from{
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(-50%);
+    }
+}
+
