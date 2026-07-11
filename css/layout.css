@@ -115,3 +115,15 @@
     cursor: pointer;
 }
 
+.hero-stats{
+    padding: 70px 0;
+}
+
+.stats-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+    text-align: center;
+
+}
+
