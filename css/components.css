@@ -38,3 +38,44 @@
     text-decoration: none;
     transition: .3s;
 }
+
+.btn-primary{
+    background: var(--primary);
+    color: var(--white);
+}
+
+.btn-primary:hover{
+    transform:translateY(-4px);
+}
+.btn-outline{
+    border: 2px solid var(--primary);
+    color: var(--primary);
+}
+
+.btn-outline:hover{
+    background: var(--primary);
+    color: var(--white);
+}
+
+.hero-badge{
+    display:inline-block;
+    background: #e8efff;
+    color: var(--primary);
+    padding: 8px 18px;
+    border-radius: 30px;
+    font-size: 14px;
+    margin-bottom: 20px;
+
+}
+
+.material-symbols-outlined{
+    font-size: 22px;
+    line-height: 1;
+    user-select: none;
+}
+
+.icon-btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
