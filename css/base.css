@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+    background: aliceblue;
+    color: #222;
+    overflow-x: hidden;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+button{
+    font-family: inherit;
+}

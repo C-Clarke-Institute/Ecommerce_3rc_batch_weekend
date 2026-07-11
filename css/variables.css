@@ -1,0 +1,9 @@
+:root{
+    --primary: #6a412a;
+    --secondary: #474444;
+    --text: #222;
+    --light: #f8f9f6;
+    --white: #fff;
+    --radius: 18px;
+    --container: 1200px;
+}
